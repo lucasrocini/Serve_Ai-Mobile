@@ -2410,7 +2410,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:~18.0.14":
+"@types/react-native@npm:^0.71.5":
+  version: 0.71.5
+  resolution: "@types/react-native@npm:0.71.5"
+  dependencies:
+    "@types/react": "*"
+  checksum: a9d88591154aeb94ee42ed88f194fed77148592e35d2bb807d9ad7aa04216ec068f5bc541e6c320c8cbac775a4f0c863bc1bd5c1c884a8f1d599494783f61d63
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:~18.0.14":
   version: 18.0.34
   resolution: "@types/react@npm:18.0.34"
   dependencies:
@@ -6579,6 +6588,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.0
     "@types/react": ~18.0.14
+    "@types/react-native": ^0.71.5
     expo: ~48.0.10
     expo-status-bar: ~1.4.4
     react: 18.2.0
